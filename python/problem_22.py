@@ -5,7 +5,7 @@ def parseFile(path):
     return [name.replace('"', "").strip() for name in text.split(",")]
 
 
-names = sorted(parseFile(r"./project_22_names.txt"))
+names = sorted(parseFile(r"./problem_22_names.txt"))
 
 
 def getNameScore(name):
